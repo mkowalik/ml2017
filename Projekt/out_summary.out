@@ -1,0 +1,385 @@
+(50000, 3072)
+(10000, 3072)
+(5000, 3072)
+9
+0
+10
+(3750, 32, 32, 3)
+(1250, 32, 32, 3)
+(3750, 10)
+(1250, 10)
+10
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.0001
+dropout:     0.2
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 42.08%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.0001
+dropout:     0.2
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 44.40%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.0001
+dropout:     0.2
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 42.96%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.001
+dropout:     0.2
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 44.08%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.001
+dropout:     0.2
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 43.92%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.001
+dropout:     0.2
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 40.48%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.01
+dropout:     0.2
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 27.04%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.01
+dropout:     0.2
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.60%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.01
+dropout:     0.2
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 23.12%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.1
+dropout:     0.2
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.36%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.1
+dropout:     0.2
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.60%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.1
+dropout:     0.2
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.68%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.0001
+dropout:     0.5
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 41.68%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.0001
+dropout:     0.5
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 43.68%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.0001
+dropout:     0.5
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 44.40%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.001
+dropout:     0.5
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 39.92%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.001
+dropout:     0.5
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 38.24%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.001
+dropout:     0.5
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 31.60%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.01
+dropout:     0.5
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.44%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.01
+dropout:     0.5
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.76%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.01
+dropout:     0.5
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.68%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.1
+dropout:     0.5
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.68%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.1
+dropout:     0.5
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 10.08%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.1
+dropout:     0.5
+dense size:  512
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.68%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.0001
+dropout:     0.2
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 41.20%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.0001
+dropout:     0.2
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 44.48%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.0001
+dropout:     0.2
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 45.52%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.001
+dropout:     0.2
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 47.68%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.001
+dropout:     0.2
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 44.72%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.001
+dropout:     0.2
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 38.72%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.01
+dropout:     0.2
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.60%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.01
+dropout:     0.2
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.44%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.01
+dropout:     0.2
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 21.84%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.1
+dropout:     0.2
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 10.08%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.1
+dropout:     0.2
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.76%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.1
+dropout:     0.2
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.76%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.0001
+dropout:     0.5
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 42.24%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.0001
+dropout:     0.5
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 45.36%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.0001
+dropout:     0.5
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 43.52%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.001
+dropout:     0.5
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 45.36%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.001
+dropout:     0.5
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 38.64%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.001
+dropout:     0.5
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 33.92%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.01
+dropout:     0.5
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 9.60%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.01
+dropout:     0.5
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 12.56%
+
+Training network on: 
+kernel size: (8, 8)
+lrate:       0.01
+dropout:     0.5
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 10.56%
+
+Training network on: 
+kernel size: (3, 3)
+lrate:       0.1
+dropout:     0.5
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples
+Accuracy: 10.24%
+
+Training network on: 
+kernel size: (5, 5)
+lrate:       0.1
+dropout:     0.5
+dense size:  1024
+Train on 3750 samples, validate on 1250 samples

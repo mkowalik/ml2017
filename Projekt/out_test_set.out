@@ -1,0 +1,230 @@
+Using TensorFlow backend.
+(50000, 3072)
+(10000, 3072)
+(5000, 3072)
+9
+0
+10
+(3750, 32, 32, 3)
+(1250, 32, 32, 3)
+(3750, 10)
+(1250, 10)
+10
+(50000, 32, 32, 3)
+Epoch 1/100
+2017-06-18 04:37:18.729204: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.1 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-18 04:37:18.729225: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use SSE4.2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-18 04:37:18.729230: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-18 04:37:18.729234: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use AVX2 instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-18 04:37:18.729239: W tensorflow/core/platform/cpu_feature_guard.cc:45] The TensorFlow library wasn't compiled to use FMA instructions, but these are available on your machine and could speed up CPU computations.
+2017-06-18 04:37:18.836300: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:893] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2017-06-18 04:37:18.836747: I tensorflow/core/common_runtime/gpu/gpu_device.cc:940] Found device 0 with properties: 
+name: GeForce GTX 750 Ti
+major: 5 minor: 0 memoryClockRate (GHz) 1.202
+pciBusID 0000:01:00.0
+Total memory: 3.95GiB
+Free memory: 3.70GiB
+2017-06-18 04:37:18.836763: I tensorflow/core/common_runtime/gpu/gpu_device.cc:961] DMA: 0 
+2017-06-18 04:37:18.836768: I tensorflow/core/common_runtime/gpu/gpu_device.cc:971] 0:   Y 
+2017-06-18 04:37:18.836786: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1030] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 750 Ti, pci bus id: 0000:01:00.0)
+33s - loss: 1.8372 - acc: 0.3438
+Epoch 2/100
+32s - loss: 1.5571 - acc: 0.4512
+Epoch 3/100
+32s - loss: 1.4126 - acc: 0.5016
+Epoch 4/100
+32s - loss: 1.3063 - acc: 0.5379
+Epoch 5/100
+32s - loss: 1.2166 - acc: 0.5717
+Epoch 6/100
+32s - loss: 1.1372 - acc: 0.5989
+Epoch 7/100
+32s - loss: 1.0609 - acc: 0.6261
+Epoch 8/100
+32s - loss: 0.9949 - acc: 0.6499
+Epoch 9/100
+32s - loss: 0.9255 - acc: 0.6750
+Epoch 10/100
+32s - loss: 0.8658 - acc: 0.6959
+Epoch 11/100
+32s - loss: 0.8072 - acc: 0.7179
+Epoch 12/100
+32s - loss: 0.7372 - acc: 0.7429
+Epoch 13/100
+32s - loss: 0.6775 - acc: 0.7638
+Epoch 14/100
+32s - loss: 0.6177 - acc: 0.7858
+Epoch 15/100
+32s - loss: 0.5543 - acc: 0.8099
+Epoch 16/100
+32s - loss: 0.4990 - acc: 0.8262
+Epoch 17/100
+32s - loss: 0.4446 - acc: 0.8467
+Epoch 18/100
+32s - loss: 0.3927 - acc: 0.8656
+Epoch 19/100
+32s - loss: 0.3492 - acc: 0.8814
+Epoch 20/100
+32s - loss: 0.3039 - acc: 0.8974
+Epoch 21/100
+32s - loss: 0.2659 - acc: 0.9086
+Epoch 22/100
+32s - loss: 0.2335 - acc: 0.9224
+Epoch 23/100
+32s - loss: 0.2075 - acc: 0.9300
+Epoch 24/100
+32s - loss: 0.1770 - acc: 0.9417
+Epoch 25/100
+32s - loss: 0.1606 - acc: 0.9463
+Epoch 26/100
+32s - loss: 0.1436 - acc: 0.9533
+Epoch 27/100
+32s - loss: 0.1313 - acc: 0.9578
+Epoch 28/100
+32s - loss: 0.1150 - acc: 0.9636
+Epoch 29/100
+32s - loss: 0.1061 - acc: 0.9675
+Epoch 30/100
+32s - loss: 0.0964 - acc: 0.9688
+Epoch 31/100
+32s - loss: 0.0878 - acc: 0.9721
+Epoch 32/100
+32s - loss: 0.0797 - acc: 0.9753
+Epoch 33/100
+32s - loss: 0.0711 - acc: 0.9789
+Epoch 34/100
+32s - loss: 0.0656 - acc: 0.9801
+Epoch 35/100
+32s - loss: 0.0624 - acc: 0.9806
+Epoch 36/100
+32s - loss: 0.0575 - acc: 0.9828
+Epoch 37/100
+32s - loss: 0.0533 - acc: 0.9847
+Epoch 38/100
+32s - loss: 0.0490 - acc: 0.9856
+Epoch 39/100
+32s - loss: 0.0452 - acc: 0.9872
+Epoch 40/100
+32s - loss: 0.0429 - acc: 0.9874
+Epoch 41/100
+32s - loss: 0.0379 - acc: 0.9894
+Epoch 42/100
+32s - loss: 0.0390 - acc: 0.9889
+Epoch 43/100
+32s - loss: 0.0351 - acc: 0.9904
+Epoch 44/100
+32s - loss: 0.0340 - acc: 0.9909
+Epoch 45/100
+32s - loss: 0.0320 - acc: 0.9912
+Epoch 46/100
+32s - loss: 0.0317 - acc: 0.9907
+Epoch 47/100
+32s - loss: 0.0278 - acc: 0.9923
+Epoch 48/100
+32s - loss: 0.0288 - acc: 0.9918
+Epoch 49/100
+32s - loss: 0.0257 - acc: 0.9932
+Epoch 50/100
+32s - loss: 0.0251 - acc: 0.9930
+Epoch 51/100
+32s - loss: 0.0229 - acc: 0.9937
+Epoch 52/100
+32s - loss: 0.0226 - acc: 0.9940
+Epoch 53/100
+32s - loss: 0.0213 - acc: 0.9945
+Epoch 54/100
+32s - loss: 0.0228 - acc: 0.9938
+Epoch 55/100
+32s - loss: 0.0204 - acc: 0.9947
+Epoch 56/100
+32s - loss: 0.0174 - acc: 0.9957
+Epoch 57/100
+32s - loss: 0.0170 - acc: 0.9955
+Epoch 58/100
+32s - loss: 0.0186 - acc: 0.9947
+Epoch 59/100
+32s - loss: 0.0185 - acc: 0.9947
+Epoch 60/100
+32s - loss: 0.0167 - acc: 0.9954
+Epoch 61/100
+32s - loss: 0.0176 - acc: 0.9954
+Epoch 62/100
+32s - loss: 0.0160 - acc: 0.9959
+Epoch 63/100
+32s - loss: 0.0163 - acc: 0.9957
+Epoch 64/100
+32s - loss: 0.0153 - acc: 0.9960
+Epoch 65/100
+32s - loss: 0.0147 - acc: 0.9965
+Epoch 66/100
+32s - loss: 0.0139 - acc: 0.9962
+Epoch 67/100
+
+32s - loss: 0.0138 - acc: 0.9967
+Epoch 68/100
+31s - loss: 0.0121 - acc: 0.9971
+Epoch 69/100
+32s - loss: 0.0141 - acc: 0.9960
+Epoch 70/100
+31s - loss: 0.0125 - acc: 0.9968
+Epoch 71/100
+31s - loss: 0.0125 - acc: 0.9969
+Epoch 72/100
+31s - loss: 0.0123 - acc: 0.9970
+Epoch 73/100
+31s - loss: 0.0125 - acc: 0.9966
+Epoch 74/100
+31s - loss: 0.0123 - acc: 0.9970
+Epoch 75/100
+31s - loss: 0.0106 - acc: 0.9975
+Epoch 76/100
+31s - loss: 0.0111 - acc: 0.9972
+Epoch 77/100
+31s - loss: 0.0111 - acc: 0.9970
+Epoch 78/100
+31s - loss: 0.0105 - acc: 0.9973
+Epoch 79/100
+31s - loss: 0.0100 - acc: 0.9975
+Epoch 80/100
+31s - loss: 0.0102 - acc: 0.9975
+Epoch 81/100
+31s - loss: 0.0096 - acc: 0.9974
+Epoch 82/100
+31s - loss: 0.0095 - acc: 0.9977
+Epoch 83/100
+31s - loss: 0.0087 - acc: 0.9981
+Epoch 84/100
+31s - loss: 0.0084 - acc: 0.9979
+Epoch 85/100
+31s - loss: 0.0082 - acc: 0.9980
+Epoch 86/100
+31s - loss: 0.0098 - acc: 0.9976
+Epoch 87/100
+31s - loss: 0.0090 - acc: 0.9981
+Epoch 88/100
+31s - loss: 0.0082 - acc: 0.9980
+Epoch 89/100
+31s - loss: 0.0071 - acc: 0.9984
+Epoch 90/100
+31s - loss: 0.0081 - acc: 0.9982
+Epoch 91/100
+31s - loss: 0.0083 - acc: 0.9978
+Epoch 92/100
+31s - loss: 0.0082 - acc: 0.9978
+Epoch 93/100
+31s - loss: 0.0083 - acc: 0.9980
+Epoch 94/100
+31s - loss: 0.0077 - acc: 0.9982
+Epoch 95/100
+31s - loss: 0.0065 - acc: 0.9983
+Epoch 96/100
+31s - loss: 0.0073 - acc: 0.9982
+Epoch 97/100
+31s - loss: 0.0070 - acc: 0.9985
+Epoch 98/100
+31s - loss: 0.0067 - acc: 0.9987
+Epoch 99/100
+31s - loss: 0.0072 - acc: 0.9983
+Epoch 100/100
+31s - loss: 0.0068 - acc: 0.9983
+DONE!
